@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {   
       "appName": {
-        "defaultValue": "tfjs4azure",
+        "defaultValue": "bruise-fighter-service",
         "type": "string"
       }
     },
@@ -51,9 +51,9 @@
               "displayName": "appSettings"
             },
             "properties": {
-              "WEBSITES_PORT":1234,
-              "DOCKER_CUSTOM_IMAGE_NAME": "abornst/tfjs4azure",
-              "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "abornst/tfjs4azure"
+              "WEBSITES_PORT":8000,
+              "DOCKER_CUSTOM_IMAGE_NAME": "200593/bruise-fighter-service",
+              "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "200593/bruise-fighter-service"
             }
           }
         ]
